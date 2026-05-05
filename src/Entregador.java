@@ -10,4 +10,8 @@ public class Entregador extends Usuarios {
         return super.toString() +
                 "Disponivel:" + (disponivel ? "Sim": "Nao");
     }
+
+    public String getNome(){
+        return super.getNome();
+    }
 }
